@@ -1,0 +1,41 @@
+.kepala {
+  background-color: #1c9d0b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.kepalaText {
+    color: black;
+    flex: 1;
+}
+
+.kepalaInput {
+    flex: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  border: 3px ;
+}
+
+.contentSpan {
+  padding: 15px 20px;
+  color: black;
+  background-color: #6372f6;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.contentSpanClose {
+  padding: 0px 20px;
+  position: absolute;
+  right: 10px;
+}
+
+.contentNone {
+  display: none;
+}
